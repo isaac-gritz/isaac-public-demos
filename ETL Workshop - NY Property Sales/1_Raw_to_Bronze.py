@@ -27,9 +27,9 @@
 
 # COMMAND ----------
 
-database = 'isaac'
+database = '<database-name>'
 
-input_data_path = "/FileStore/etl-workshop/nyc_rolling_sales.csv"
+input_data_path = "/FileStore/<folder>/nyc_rolling_sales.csv"
 
 # COMMAND ----------
 

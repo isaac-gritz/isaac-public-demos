@@ -15,7 +15,7 @@
 
 # COMMAND ----------
 
-database = 'isaac'
+database = '<database-name>'
 
 # COMMAND ----------
 
