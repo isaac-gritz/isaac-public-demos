@@ -27,9 +27,9 @@
 
 # COMMAND ----------
 
-database = '<database-name>'
-
-input_data_path = "/FileStore/<folder>/nyc_rolling_sales.csv"
+database = 'isaac'
+print('test')
+input_data_path = "/FileStore/etl-workshop/nyc_rolling_sales.csv"
 
 # COMMAND ----------
 
@@ -72,7 +72,7 @@ ny_property_sales.write.format("delta").mode("overwrite").save("dbfs:/tmp/reales
 # COMMAND ----------
 
 # MAGIC %fs 
-# MAGIC ls dbfs:/tmp/realestate/bronze
+# MAGIC ls dbfs:/tmp/realestate/bronze/_delta_log/
 
 # COMMAND ----------
 

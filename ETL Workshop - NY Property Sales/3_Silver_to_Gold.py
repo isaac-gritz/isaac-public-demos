@@ -16,7 +16,7 @@
 
 # COMMAND ----------
 
-database = '<database-name>'
+database = 'isaac'
 
 # COMMAND ----------
 
@@ -39,7 +39,7 @@ ny_silver = spark.table("ny_silver")
 
 # COMMAND ----------
 
-# MAGIC %fs ls dbfs:/databricks-datasets/data.gov/irs_zip_code_data/
+# MAGIC %fs ls dbfs:/databricks-datasets/data.gov/irs_zip_code_data/data-001/
 
 # COMMAND ----------
 
